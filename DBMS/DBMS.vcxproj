@@ -19,12 +19,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BaseColumn.h" />
+    <ClInclude Include="ColumnFactory.h" />
+    <ClInclude Include="Columns.h" />
     <ClInclude Include="Database.h" />
     <ClInclude Include="DBManagementSystem.h" />
+    <ClInclude Include="Table.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Columns.cpp" />
     <ClCompile Include="Database.cpp" />
     <ClCompile Include="DBManagementSystem.cpp" />
+    <ClCompile Include="Table.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
